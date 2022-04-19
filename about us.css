@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    color: white;
+    background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700640584.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#header{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+#nav-bar{
+    font-weight: 500;
+    font-size: 20px;
+    font-family:'Lobster';
+}
+#nav-bar>ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style: none;
+}
+#nav-bar>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+#nav-bar>ul>li{
+    padding-right:20px;
+    padding-left: 20px;
+}
+.main-body{
+    margin-top: 70px;
+    display: flex;
+
+}
+.main-body h1{
+    font-size: 70px;
+    color: white;
+    text-shadow: 2px 2px 5px gold;
+}
+.sub-body p{
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 4px silver;
+}
+.sub-body h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 3px gold;
+}
+.s p{ 
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 3px silver;
+}
+.a h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 3px gold;
+
+}
+.a p{
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 3px silver;
+}
+.d h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 3px gold;
+
+}
+.d p{
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 3px silver;
+}
+.footer{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.facebook{
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.facebook1{
+    width: 3%;
+}
